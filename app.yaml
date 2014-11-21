@@ -2,6 +2,7 @@ application: gameyeppoker
 version: 1
 runtime: php
 api_version: 1
+threadsafe: yes
 
 handlers:
 - url: /.*
