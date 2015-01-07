@@ -1,2 +1,2 @@
 <?php
-include 'welcome.html';
+include 'page.html';
