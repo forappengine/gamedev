@@ -11,6 +11,10 @@ handlers:
 - url: /index\.html
   script: index.php
 
+- url: /(.*\.(css))$
+  static_files: css/\1
+  upload: css/.*\.(css)$
+  
 - url: /stylesheets
   static_dir: css
 
